@@ -34,7 +34,7 @@ export default () => {
       <StylesProvider generateClassName={generateClassName}>
         <div>
           <Header
-            onSignOut={() => setIsSignedIn(false)}
+            onSignOut={() => setIsSignedIn(false)} 
             isSignedIn={isSignedIn}
           />
           <Suspense fallback={<Progress />}>
