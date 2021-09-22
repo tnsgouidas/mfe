@@ -731,7 +731,7 @@ $footerBgColor: #ffffff;
   .activity-list {
     list-style-type: none;
     padding: 0;
-    margin: 0; 
+    margin: 0;
 
     li {
       border-bottom: 1px solid $dividerColor;
